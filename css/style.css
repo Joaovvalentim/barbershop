@@ -251,6 +251,9 @@ section {
 .team-member{
     position: relative;
 }
+.team-member p{
+    font-weight: 300;
+}
 
 .team-member .social-links{
     position: absolute;
