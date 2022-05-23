@@ -44,6 +44,7 @@ a {
     color: var(--body);
     text-decoration: none;
     font-weight: 600;
+    transition: all 0.4s ease;
 }
 
 a:hover {
@@ -204,6 +205,9 @@ section {
 }
 
 /* ----------------------- Feature -----------------------*/
+#features{
+    background-color: var(--bg2);
+}
 .feature{
     display: flex;
 }
@@ -220,4 +224,43 @@ section {
 }
 .espax{
     padding: 20px;
+}
+
+
+
+
+/* ----------------------- Social Icons -----------------------*/
+
+.social-links a{
+    width: 48px;
+    height: 48px;
+    background-color: var(--bg2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a:hover{
+    background-color: var(--brand);
+    color: var(--bg2);
+}
+
+
+/* ----------------------- Team Members -----------------------*/
+
+.team-member{
+    position: relative;
+}
+
+.team-member .social-links{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+.team-member:hover .social-links{
+    opacity: 1;
+    top: 30px;
 }
