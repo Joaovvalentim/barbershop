@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300&display=swap');
+
+:root {
+    --bg1: #161819;
+    --bg2: #1B1F34;
+    --body: #a16663;
+    --brand: #82328B;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: alverata-irregular, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: var(--body)
+}
+
+p {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+/* -----------------------Navbar---------------------- */
+.navbar {
+    background: linear-gradient(to bottom, #161819, rgba(97, 96, 96, 0.2));
+}
+.navbar .navbar-nav .nav-link.active{
+    color: var(--brand);
+}
+
+/* -----------------------Hero---------------------- */
+#hero {
+    background: linear-gradient(to right, #161819, rgba(27, 31, 52, 0.2)), url(../img/cover_1.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+#hero p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.logo {
+    height: 120px;
+    width: 135px;
+}
+
+/* -----------------------BTN -----------------------*/
+.btn {
+    padding: 16px 36px;
+    font-family: alverata-irregular, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    transition: all 0.4s ease;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover{
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+.btn-outline-brand{
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+.btn-outline-brand:hover{
+    background-color: transparent;
+}
