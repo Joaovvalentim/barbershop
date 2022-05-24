@@ -81,9 +81,14 @@ section {
 .navbar {
     background: linear-gradient(to bottom, #161819, rgba(97, 96, 96, 0.2));
 }
+.navbar-expand-lg{
+    background-color: rgba(16, 18, 52, 0.9);
+}
 
 .navbar .navbar-nav .nav-link.active {
     color: var(--brand);
+    border-bottom: 1px solid var(--brand);
+    transition: all 0.4s ease;
 }
 
 /* -----------------------Hero---------------------- */
@@ -305,4 +310,67 @@ section {
 .review img {
     width: 60px;
     border-radius: 100px;
+}
+
+/* ----------------------- Blog post -----------------------*/
+
+#blog {
+    background-color: var(--bg1);
+}
+
+.blog-post {
+    position: relative;
+}
+
+.blog-post .date {
+    width: 100px;
+    height: 100px;
+    background-color: var(--brand);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.blog-post .day {
+    font-size: 32px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    color: var(--bg2);
+}
+
+.blog-post .year {
+    color: var(--bg2);
+    font-weight: 600;
+}
+
+/* ----------------------- Footer -----------------------*/
+
+footer {
+    padding-top: 160px;
+    background-color: var(--bg2);
+}
+
+footer .social-links {
+    display: flex;
+}
+footer .social-links a{
+    display: flex;
+    margin-right: 5px;
+}
+.icon-footer{
+    color: var(--brand);
+}
+.footer-top{
+    padding-bottom: 30px;
+}
+
+.footer-bottom{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid var(--brand);
 }
