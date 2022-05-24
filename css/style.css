@@ -178,51 +178,55 @@ section {
 }
 
 
-#services .service p{
+#services .service p {
     margin-top: 18px;
     margin-bottom: 18px;
 }
 
 /* -----------------------Intro service -----------------------*/
 
-.intro{
+.intro {
     margin-bottom: 60px;
 }
 
-.intro h1{
+.intro h1 {
     margin-top: 16px;
     margin-bottom: 16px;
 }
 
-.intro h6{
+.intro h6 {
     color: var(--brand);
 }
 
-.intro p{
+.intro p {
     font-weight: 400;
-     max-width: 500px;
-     margin: auto;
+    max-width: 500px;
+    margin: auto;
 }
 
 /* ----------------------- Feature -----------------------*/
-#features{
+#features {
     background-color: var(--bg2);
 }
-.feature{
+
+.feature {
     display: flex;
 }
-.feature .icon-feature{
+
+.feature .icon-feature {
     font-size: 38px;
     color: var(--brand);
     line-height: 1;
     margin-right: 16px;
 }
-.feature p{
+
+.feature p {
     font-size: 14px;
     margin-top: 16px;
     margin-bottom: 16px;
 }
-.espax{
+
+.espax {
     padding: 20px;
 }
 
@@ -231,7 +235,7 @@ section {
 
 /* ----------------------- Social Icons -----------------------*/
 
-.social-links a{
+.social-links a {
     width: 48px;
     height: 48px;
     background-color: var(--bg2);
@@ -240,22 +244,26 @@ section {
     justify-content: center;
 }
 
-.social-links a:hover{
+.social-links a:hover {
     background-color: var(--brand);
     color: var(--bg2);
 }
 
 
 /* ----------------------- Team Members -----------------------*/
+#team {
+    background-color: var(--bg1);
+}
 
-.team-member{
+.team-member {
     position: relative;
 }
-.team-member p{
+
+.team-member p {
     font-weight: 300;
 }
 
-.team-member .social-links{
+.team-member .social-links {
     position: absolute;
     top: 0px;
     right: 30px;
@@ -263,7 +271,38 @@ section {
     opacity: 0;
 }
 
-.team-member:hover .social-links{
+.team-member:hover .social-links {
     opacity: 1;
     top: 30px;
+}
+
+/* ----------------------- Reviews -----------------------*/
+
+#reviews {
+    background-color: var(--bg2);
+}
+
+.review {
+    padding: 32px;
+    background-color: var(--bg1);
+    position: relative;
+    border-radius: 5px;
+}
+
+.review .icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--brand);
+    color: var(--bg2);
+    border-radius: 100px;
+    position: absolute;
+    right: 32px;
+}
+
+.review img {
+    width: 60px;
+    border-radius: 100px;
 }
