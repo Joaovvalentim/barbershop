@@ -1,2 +1,3 @@
 # Barber-Shop
-Barber shop from ricardo
+Barber shop from Joao victor dev
+
